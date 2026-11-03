@@ -1,0 +1,17 @@
+4x4 Weight-Stationary Systolic Array
+Utilization Verification — v1
+
+Result: PASS
+
+Total MAC operations: 64
+Expected MAC operations: 64
+Peak simultaneous active PEs: 12
+Active computation cycles: 10
+
+Per-PE MAC counts:
+4 4 4 4
+4 4 4 4
+4 4 4 4
+
+All 16 PEs performed exactly 4 MAC operations.
+The measured activity followed a systolic wavefront.

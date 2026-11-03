@@ -1,0 +1,9 @@
+===== FC1 VALID/READY PROTOCOL TEST =====
+[PASS] Initial tile_ready is LOW
+[PASS] Tile not accepted before handshake
+[PASS] Tile captured on valid/ready handshake
+[PASS] Captured tile remains stable after input changes
+-----------------------------------------
+PROTOCOL TEST: 4 PASS / 0 FAIL
+[PASS] VALID/READY PROTOCOL VERIFIED
+testbench/tb_fc1_controller_protocol.v:154: $finish called at 71000 (1ps)

@@ -1,0 +1,23 @@
+4x4 Weight-Stationary Systolic Array
+FSM Functional and Output Alignment Verification — v1
+
+Result: PASS
+
+Total checks: 222
+Passed: 222
+Failed: 0
+
+Test coverage:
+1. Start before weight loading is ignored.
+2. Positive matrix multiplication.
+3. Mixed positive and negative matrix multiplication.
+4. INT8 boundary matrix multiplication (-128, 127).
+5. Ten deterministic random matrix multiplications.
+
+Total matrix tests: 13
+Output comparisons: 208
+Done pulse checks: 13
+Start-before-load check: 1
+
+All 16 output elements matched the independently calculated
+golden matrix for every matrix test.

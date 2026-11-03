@@ -1,0 +1,3282 @@
+================================================
+       1000-IMAGE MNIST RTL VERIFICATION
+================================================
+
+[LOAD] Loading FC1 vectors...
+[LOAD] Loading FC2 parameters...
+
+[PASS] Reset released.
+[INFO] Starting 25 inference batches.
+
+
+==============================================
+          BATCH 1 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 1 completed in 1317 cycles.
+[PASS] Image 0 | Expected=7 | Predicted=7
+[PASS] Image 1 | Expected=2 | Predicted=2
+[PASS] Image 2 | Expected=1 | Predicted=1
+[PASS] Image 3 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 2 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 2 completed in 1317 cycles.
+[PASS] Image 4 | Expected=4 | Predicted=4
+[PASS] Image 5 | Expected=1 | Predicted=1
+[PASS] Image 6 | Expected=4 | Predicted=4
+[PASS] Image 7 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 3 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 3 completed in 1317 cycles.
+[PASS] Image 8 | Expected=6 | Predicted=6
+[PASS] Image 9 | Expected=9 | Predicted=9
+[PASS] Image 10 | Expected=0 | Predicted=0
+[PASS] Image 11 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 4 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 4 completed in 1317 cycles.
+[PASS] Image 12 | Expected=9 | Predicted=9
+[PASS] Image 13 | Expected=0 | Predicted=0
+[PASS] Image 14 | Expected=1 | Predicted=1
+[PASS] Image 15 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 5 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 5 completed in 1317 cycles.
+[PASS] Image 16 | Expected=9 | Predicted=9
+[PASS] Image 17 | Expected=7 | Predicted=7
+[PASS] Image 18 | Expected=3 | Predicted=3
+[PASS] Image 19 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 6 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 6 completed in 1317 cycles.
+[PASS] Image 20 | Expected=9 | Predicted=9
+[PASS] Image 21 | Expected=6 | Predicted=6
+[PASS] Image 22 | Expected=6 | Predicted=6
+[PASS] Image 23 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 7 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 7 completed in 1317 cycles.
+[PASS] Image 24 | Expected=4 | Predicted=4
+[PASS] Image 25 | Expected=0 | Predicted=0
+[PASS] Image 26 | Expected=7 | Predicted=7
+[PASS] Image 27 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 8 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 8 completed in 1317 cycles.
+[PASS] Image 28 | Expected=0 | Predicted=0
+[PASS] Image 29 | Expected=1 | Predicted=1
+[PASS] Image 30 | Expected=3 | Predicted=3
+[PASS] Image 31 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 9 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 9 completed in 1317 cycles.
+[PASS] Image 32 | Expected=3 | Predicted=3
+[PASS] Image 33 | Expected=4 | Predicted=4
+[PASS] Image 34 | Expected=7 | Predicted=7
+[PASS] Image 35 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 10 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 10 completed in 1317 cycles.
+[PASS] Image 36 | Expected=7 | Predicted=7
+[PASS] Image 37 | Expected=1 | Predicted=1
+[PASS] Image 38 | Expected=3 | Predicted=3
+[PASS] Image 39 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 11 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 11 completed in 1317 cycles.
+[PASS] Image 40 | Expected=1 | Predicted=1
+[PASS] Image 41 | Expected=7 | Predicted=7
+[PASS] Image 42 | Expected=4 | Predicted=4
+[PASS] Image 43 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 12 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 12 completed in 1317 cycles.
+[PASS] Image 44 | Expected=3 | Predicted=3
+[PASS] Image 45 | Expected=5 | Predicted=5
+[PASS] Image 46 | Expected=1 | Predicted=1
+[PASS] Image 47 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 13 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 13 completed in 1317 cycles.
+[PASS] Image 48 | Expected=4 | Predicted=4
+[PASS] Image 49 | Expected=4 | Predicted=4
+[PASS] Image 50 | Expected=6 | Predicted=6
+[PASS] Image 51 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 14 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 14 completed in 1317 cycles.
+[PASS] Image 52 | Expected=5 | Predicted=5
+[PASS] Image 53 | Expected=5 | Predicted=5
+[PASS] Image 54 | Expected=6 | Predicted=6
+[PASS] Image 55 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 15 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 15 completed in 1317 cycles.
+[PASS] Image 56 | Expected=4 | Predicted=4
+[PASS] Image 57 | Expected=1 | Predicted=1
+[PASS] Image 58 | Expected=9 | Predicted=9
+[PASS] Image 59 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 16 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 16 completed in 1317 cycles.
+[PASS] Image 60 | Expected=7 | Predicted=7
+[PASS] Image 61 | Expected=8 | Predicted=8
+[PASS] Image 62 | Expected=9 | Predicted=9
+[PASS] Image 63 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 17 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 17 completed in 1317 cycles.
+[PASS] Image 64 | Expected=7 | Predicted=7
+[PASS] Image 65 | Expected=4 | Predicted=4
+[PASS] Image 66 | Expected=6 | Predicted=6
+[PASS] Image 67 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 18 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 18 completed in 1317 cycles.
+[PASS] Image 68 | Expected=3 | Predicted=3
+[PASS] Image 69 | Expected=0 | Predicted=0
+[PASS] Image 70 | Expected=7 | Predicted=7
+[PASS] Image 71 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 19 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 19 completed in 1317 cycles.
+[PASS] Image 72 | Expected=2 | Predicted=2
+[PASS] Image 73 | Expected=9 | Predicted=9
+[PASS] Image 74 | Expected=1 | Predicted=1
+[PASS] Image 75 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 20 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 20 completed in 1317 cycles.
+[PASS] Image 76 | Expected=3 | Predicted=3
+[PASS] Image 77 | Expected=2 | Predicted=2
+[PASS] Image 78 | Expected=9 | Predicted=9
+[PASS] Image 79 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 21 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 21 completed in 1317 cycles.
+[PASS] Image 80 | Expected=7 | Predicted=7
+[PASS] Image 81 | Expected=6 | Predicted=6
+[PASS] Image 82 | Expected=2 | Predicted=2
+[PASS] Image 83 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 22 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 22 completed in 1317 cycles.
+[PASS] Image 84 | Expected=8 | Predicted=8
+[PASS] Image 85 | Expected=4 | Predicted=4
+[PASS] Image 86 | Expected=7 | Predicted=7
+[PASS] Image 87 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 23 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 23 completed in 1317 cycles.
+[PASS] Image 88 | Expected=6 | Predicted=6
+[PASS] Image 89 | Expected=1 | Predicted=1
+[PASS] Image 90 | Expected=3 | Predicted=3
+[PASS] Image 91 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 24 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 24 completed in 1317 cycles.
+[PASS] Image 92 | Expected=9 | Predicted=9
+[PASS] Image 93 | Expected=3 | Predicted=3
+[PASS] Image 94 | Expected=1 | Predicted=1
+[PASS] Image 95 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 25 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 25 completed in 1317 cycles.
+[PASS] Image 96 | Expected=1 | Predicted=1
+[PASS] Image 97 | Expected=7 | Predicted=7
+[PASS] Image 98 | Expected=6 | Predicted=6
+[PASS] Image 99 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 26 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 26 completed in 1317 cycles.
+[PASS] Image 100 | Expected=6 | Predicted=6
+[PASS] Image 101 | Expected=0 | Predicted=0
+[PASS] Image 102 | Expected=5 | Predicted=5
+[PASS] Image 103 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 27 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 27 completed in 1317 cycles.
+[PASS] Image 104 | Expected=9 | Predicted=9
+[PASS] Image 105 | Expected=9 | Predicted=9
+[PASS] Image 106 | Expected=2 | Predicted=2
+[PASS] Image 107 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 28 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 28 completed in 1317 cycles.
+[PASS] Image 108 | Expected=9 | Predicted=9
+[PASS] Image 109 | Expected=4 | Predicted=4
+[PASS] Image 110 | Expected=8 | Predicted=8
+[PASS] Image 111 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 29 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 29 completed in 1317 cycles.
+[PASS] Image 112 | Expected=3 | Predicted=3
+[PASS] Image 113 | Expected=9 | Predicted=9
+[PASS] Image 114 | Expected=7 | Predicted=7
+[PASS] Image 115 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 30 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 30 completed in 1317 cycles.
+[PASS] Image 116 | Expected=4 | Predicted=4
+[PASS] Image 117 | Expected=4 | Predicted=4
+[PASS] Image 118 | Expected=9 | Predicted=9
+[PASS] Image 119 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 31 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 31 completed in 1317 cycles.
+[PASS] Image 120 | Expected=5 | Predicted=5
+[PASS] Image 121 | Expected=4 | Predicted=4
+[PASS] Image 122 | Expected=7 | Predicted=7
+[PASS] Image 123 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 32 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 32 completed in 1317 cycles.
+[PASS] Image 124 | Expected=7 | Predicted=7
+[PASS] Image 125 | Expected=9 | Predicted=9
+[PASS] Image 126 | Expected=0 | Predicted=0
+[PASS] Image 127 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 33 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 33 completed in 1317 cycles.
+[PASS] Image 128 | Expected=8 | Predicted=8
+[PASS] Image 129 | Expected=5 | Predicted=5
+[PASS] Image 130 | Expected=6 | Predicted=6
+[PASS] Image 131 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 34 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 34 completed in 1317 cycles.
+[PASS] Image 132 | Expected=5 | Predicted=5
+[PASS] Image 133 | Expected=7 | Predicted=7
+[PASS] Image 134 | Expected=8 | Predicted=8
+[PASS] Image 135 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 35 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 35 completed in 1317 cycles.
+[PASS] Image 136 | Expected=0 | Predicted=0
+[PASS] Image 137 | Expected=1 | Predicted=1
+[PASS] Image 138 | Expected=6 | Predicted=6
+[PASS] Image 139 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 36 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 36 completed in 1317 cycles.
+[PASS] Image 140 | Expected=6 | Predicted=6
+[PASS] Image 141 | Expected=7 | Predicted=7
+[PASS] Image 142 | Expected=3 | Predicted=3
+[PASS] Image 143 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 37 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 37 completed in 1317 cycles.
+[PASS] Image 144 | Expected=7 | Predicted=7
+[PASS] Image 145 | Expected=1 | Predicted=1
+[PASS] Image 146 | Expected=8 | Predicted=8
+[PASS] Image 147 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 38 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 38 completed in 1317 cycles.
+[PASS] Image 148 | Expected=0 | Predicted=0
+[PASS] Image 149 | Expected=4 | Predicted=4
+[PASS] Image 150 | Expected=9 | Predicted=9
+[PASS] Image 151 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 39 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 39 completed in 1317 cycles.
+[PASS] Image 152 | Expected=5 | Predicted=5
+[PASS] Image 153 | Expected=5 | Predicted=5
+[PASS] Image 154 | Expected=1 | Predicted=1
+[PASS] Image 155 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 40 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 40 completed in 1317 cycles.
+[PASS] Image 156 | Expected=6 | Predicted=6
+[PASS] Image 157 | Expected=0 | Predicted=0
+[PASS] Image 158 | Expected=3 | Predicted=3
+[PASS] Image 159 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 41 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 41 completed in 1317 cycles.
+[PASS] Image 160 | Expected=4 | Predicted=4
+[PASS] Image 161 | Expected=6 | Predicted=6
+[PASS] Image 162 | Expected=5 | Predicted=5
+[PASS] Image 163 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 42 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 42 completed in 1317 cycles.
+[PASS] Image 164 | Expected=6 | Predicted=6
+[PASS] Image 165 | Expected=5 | Predicted=5
+[PASS] Image 166 | Expected=4 | Predicted=4
+[PASS] Image 167 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 43 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 43 completed in 1317 cycles.
+[PASS] Image 168 | Expected=1 | Predicted=1
+[PASS] Image 169 | Expected=4 | Predicted=4
+[PASS] Image 170 | Expected=4 | Predicted=4
+[PASS] Image 171 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 44 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 44 completed in 1317 cycles.
+[PASS] Image 172 | Expected=2 | Predicted=2
+[PASS] Image 173 | Expected=3 | Predicted=3
+[PASS] Image 174 | Expected=2 | Predicted=2
+[PASS] Image 175 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 45 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 45 completed in 1317 cycles.
+[PASS] Image 176 | Expected=1 | Predicted=1
+[PASS] Image 177 | Expected=8 | Predicted=8
+[PASS] Image 178 | Expected=1 | Predicted=1
+[PASS] Image 179 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 46 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 46 completed in 1317 cycles.
+[PASS] Image 180 | Expected=1 | Predicted=1
+[PASS] Image 181 | Expected=8 | Predicted=8
+[PASS] Image 182 | Expected=5 | Predicted=5
+[PASS] Image 183 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 47 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 47 completed in 1317 cycles.
+[PASS] Image 184 | Expected=8 | Predicted=8
+[PASS] Image 185 | Expected=9 | Predicted=9
+[PASS] Image 186 | Expected=2 | Predicted=2
+[PASS] Image 187 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 48 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 48 completed in 1317 cycles.
+[PASS] Image 188 | Expected=0 | Predicted=0
+[PASS] Image 189 | Expected=1 | Predicted=1
+[PASS] Image 190 | Expected=1 | Predicted=1
+[PASS] Image 191 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 49 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 49 completed in 1317 cycles.
+[PASS] Image 192 | Expected=0 | Predicted=0
+[PASS] Image 193 | Expected=9 | Predicted=9
+[PASS] Image 194 | Expected=0 | Predicted=0
+[PASS] Image 195 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 50 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 50 completed in 1317 cycles.
+[PASS] Image 196 | Expected=1 | Predicted=1
+[PASS] Image 197 | Expected=6 | Predicted=6
+[PASS] Image 198 | Expected=4 | Predicted=4
+[PASS] Image 199 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 51 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 51 completed in 1317 cycles.
+[PASS] Image 200 | Expected=3 | Predicted=3
+[PASS] Image 201 | Expected=6 | Predicted=6
+[PASS] Image 202 | Expected=1 | Predicted=1
+[PASS] Image 203 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 52 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 52 completed in 1317 cycles.
+[PASS] Image 204 | Expected=1 | Predicted=1
+[PASS] Image 205 | Expected=3 | Predicted=3
+[PASS] Image 206 | Expected=9 | Predicted=9
+[PASS] Image 207 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 53 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 53 completed in 1317 cycles.
+[PASS] Image 208 | Expected=2 | Predicted=2
+[PASS] Image 209 | Expected=9 | Predicted=9
+[PASS] Image 210 | Expected=4 | Predicted=4
+[PASS] Image 211 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 54 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 54 completed in 1317 cycles.
+[PASS] Image 212 | Expected=9 | Predicted=9
+[PASS] Image 213 | Expected=3 | Predicted=3
+[PASS] Image 214 | Expected=9 | Predicted=9
+[PASS] Image 215 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 55 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 55 completed in 1317 cycles.
+[PASS] Image 216 | Expected=3 | Predicted=3
+[PASS] Image 217 | Expected=5 | Predicted=5
+[PASS] Image 218 | Expected=5 | Predicted=5
+[PASS] Image 219 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 56 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 56 completed in 1317 cycles.
+[PASS] Image 220 | Expected=7 | Predicted=7
+[PASS] Image 221 | Expected=2 | Predicted=2
+[PASS] Image 222 | Expected=2 | Predicted=2
+[PASS] Image 223 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 57 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 57 completed in 1317 cycles.
+[PASS] Image 224 | Expected=1 | Predicted=1
+[PASS] Image 225 | Expected=2 | Predicted=2
+[PASS] Image 226 | Expected=8 | Predicted=8
+[PASS] Image 227 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 58 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 58 completed in 1317 cycles.
+[PASS] Image 228 | Expected=1 | Predicted=1
+[PASS] Image 229 | Expected=7 | Predicted=7
+[PASS] Image 230 | Expected=3 | Predicted=3
+[PASS] Image 231 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 59 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 59 completed in 1317 cycles.
+[PASS] Image 232 | Expected=8 | Predicted=8
+[PASS] Image 233 | Expected=7 | Predicted=7
+[PASS] Image 234 | Expected=7 | Predicted=7
+[PASS] Image 235 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 60 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 60 completed in 1317 cycles.
+[PASS] Image 236 | Expected=2 | Predicted=2
+[PASS] Image 237 | Expected=2 | Predicted=2
+[PASS] Image 238 | Expected=4 | Predicted=4
+[PASS] Image 239 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 61 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 61 completed in 1317 cycles.
+[PASS] Image 240 | Expected=5 | Predicted=5
+[PASS] Image 241 | Expected=8 | Predicted=8
+[PASS] Image 242 | Expected=8 | Predicted=8
+[PASS] Image 243 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 62 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 62 completed in 1317 cycles.
+[PASS] Image 244 | Expected=2 | Predicted=2
+[PASS] Image 245 | Expected=3 | Predicted=3
+[PASS] Image 246 | Expected=0 | Predicted=0
+[PASS] Image 247 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 63 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 63 completed in 1317 cycles.
+[PASS] Image 248 | Expected=4 | Predicted=4
+[PASS] Image 249 | Expected=2 | Predicted=2
+[PASS] Image 250 | Expected=4 | Predicted=4
+[PASS] Image 251 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 64 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 64 completed in 1317 cycles.
+[PASS] Image 252 | Expected=9 | Predicted=9
+[PASS] Image 253 | Expected=5 | Predicted=5
+[PASS] Image 254 | Expected=7 | Predicted=7
+[PASS] Image 255 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 65 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 65 completed in 1317 cycles.
+[PASS] Image 256 | Expected=2 | Predicted=2
+[PASS] Image 257 | Expected=8 | Predicted=8
+[PASS] Image 258 | Expected=2 | Predicted=2
+[PASS] Image 259 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 66 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 66 completed in 1317 cycles.
+[PASS] Image 260 | Expected=8 | Predicted=8
+[PASS] Image 261 | Expected=5 | Predicted=5
+[PASS] Image 262 | Expected=7 | Predicted=7
+[PASS] Image 263 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 67 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 67 completed in 1317 cycles.
+[PASS] Image 264 | Expected=9 | Predicted=9
+[PASS] Image 265 | Expected=1 | Predicted=1
+[PASS] Image 266 | Expected=8 | Predicted=8
+[PASS] Image 267 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 68 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 68 completed in 1317 cycles.
+[PASS] Image 268 | Expected=8 | Predicted=8
+[PASS] Image 269 | Expected=0 | Predicted=0
+[PASS] Image 270 | Expected=3 | Predicted=3
+[PASS] Image 271 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 69 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 69 completed in 1317 cycles.
+[PASS] Image 272 | Expected=1 | Predicted=1
+[PASS] Image 273 | Expected=9 | Predicted=9
+[PASS] Image 274 | Expected=9 | Predicted=9
+[PASS] Image 275 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 70 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 70 completed in 1317 cycles.
+[PASS] Image 276 | Expected=1 | Predicted=1
+[PASS] Image 277 | Expected=8 | Predicted=8
+[PASS] Image 278 | Expected=2 | Predicted=2
+[PASS] Image 279 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 71 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 71 completed in 1317 cycles.
+[PASS] Image 280 | Expected=2 | Predicted=2
+[PASS] Image 281 | Expected=9 | Predicted=9
+[PASS] Image 282 | Expected=7 | Predicted=7
+[PASS] Image 283 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 72 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 72 completed in 1317 cycles.
+[PASS] Image 284 | Expected=9 | Predicted=9
+[PASS] Image 285 | Expected=2 | Predicted=2
+[PASS] Image 286 | Expected=6 | Predicted=6
+[PASS] Image 287 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 73 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 73 completed in 1317 cycles.
+[PASS] Image 288 | Expected=1 | Predicted=1
+[PASS] Image 289 | Expected=5 | Predicted=5
+[PASS] Image 290 | Expected=4 | Predicted=4
+[PASS] Image 291 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 74 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 74 completed in 1317 cycles.
+[PASS] Image 292 | Expected=9 | Predicted=9
+[PASS] Image 293 | Expected=2 | Predicted=2
+[PASS] Image 294 | Expected=0 | Predicted=0
+[PASS] Image 295 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 75 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 75 completed in 1317 cycles.
+[PASS] Image 296 | Expected=0 | Predicted=0
+[PASS] Image 297 | Expected=0 | Predicted=0
+[PASS] Image 298 | Expected=2 | Predicted=2
+[PASS] Image 299 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 76 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 76 completed in 1317 cycles.
+[PASS] Image 300 | Expected=4 | Predicted=4
+[PASS] Image 301 | Expected=7 | Predicted=7
+[PASS] Image 302 | Expected=1 | Predicted=1
+[PASS] Image 303 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 77 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 77 completed in 1317 cycles.
+[PASS] Image 304 | Expected=4 | Predicted=4
+[PASS] Image 305 | Expected=0 | Predicted=0
+[PASS] Image 306 | Expected=2 | Predicted=2
+[PASS] Image 307 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 78 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 78 completed in 1317 cycles.
+[PASS] Image 308 | Expected=4 | Predicted=4
+[PASS] Image 309 | Expected=3 | Predicted=3
+[PASS] Image 310 | Expected=3 | Predicted=3
+[PASS] Image 311 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 79 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 79 completed in 1317 cycles.
+[PASS] Image 312 | Expected=0 | Predicted=0
+[PASS] Image 313 | Expected=3 | Predicted=3
+[PASS] Image 314 | Expected=1 | Predicted=1
+[PASS] Image 315 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 80 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 80 completed in 1317 cycles.
+[PASS] Image 316 | Expected=6 | Predicted=6
+[PASS] Image 317 | Expected=5 | Predicted=5
+[PASS] Image 318 | Expected=2 | Predicted=2
+[PASS] Image 319 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 81 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 81 completed in 1317 cycles.
+[PASS] Image 320 | Expected=7 | Predicted=7
+[PASS] Image 321 | Expected=7 | Predicted=7
+[PASS] Image 322 | Expected=9 | Predicted=9
+[PASS] Image 323 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 82 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 82 completed in 1317 cycles.
+[PASS] Image 324 | Expected=0 | Predicted=0
+[PASS] Image 325 | Expected=4 | Predicted=4
+[PASS] Image 326 | Expected=2 | Predicted=2
+[PASS] Image 327 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 83 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 83 completed in 1317 cycles.
+[PASS] Image 328 | Expected=7 | Predicted=7
+[PASS] Image 329 | Expected=1 | Predicted=1
+[PASS] Image 330 | Expected=1 | Predicted=1
+[PASS] Image 331 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 84 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 84 completed in 1317 cycles.
+[PASS] Image 332 | Expected=1 | Predicted=1
+[PASS] Image 333 | Expected=5 | Predicted=5
+[PASS] Image 334 | Expected=3 | Predicted=3
+[PASS] Image 335 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 85 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 85 completed in 1317 cycles.
+[PASS] Image 336 | Expected=9 | Predicted=9
+[PASS] Image 337 | Expected=7 | Predicted=7
+[PASS] Image 338 | Expected=8 | Predicted=8
+[PASS] Image 339 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 86 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 86 completed in 1317 cycles.
+[PASS] Image 340 | Expected=3 | Predicted=3
+[PASS] Image 341 | Expected=6 | Predicted=6
+[PASS] Image 342 | Expected=1 | Predicted=1
+[PASS] Image 343 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 87 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 87 completed in 1317 cycles.
+[PASS] Image 344 | Expected=8 | Predicted=8
+[PASS] Image 345 | Expected=1 | Predicted=1
+[PASS] Image 346 | Expected=0 | Predicted=0
+[PASS] Image 347 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 88 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 88 completed in 1317 cycles.
+[PASS] Image 348 | Expected=1 | Predicted=1
+[PASS] Image 349 | Expected=3 | Predicted=3
+[PASS] Image 350 | Expected=1 | Predicted=1
+[PASS] Image 351 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 89 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 89 completed in 1317 cycles.
+[PASS] Image 352 | Expected=5 | Predicted=5
+[PASS] Image 353 | Expected=6 | Predicted=6
+[PASS] Image 354 | Expected=1 | Predicted=1
+[PASS] Image 355 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 90 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 90 completed in 1317 cycles.
+[PASS] Image 356 | Expected=5 | Predicted=5
+[PASS] Image 357 | Expected=1 | Predicted=1
+[PASS] Image 358 | Expected=7 | Predicted=7
+[PASS] Image 359 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 91 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 91 completed in 1317 cycles.
+[PASS] Image 360 | Expected=4 | Predicted=4
+[PASS] Image 361 | Expected=6 | Predicted=6
+[PASS] Image 362 | Expected=2 | Predicted=2
+[PASS] Image 363 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 92 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 92 completed in 1317 cycles.
+[PASS] Image 364 | Expected=5 | Predicted=5
+[PASS] Image 365 | Expected=0 | Predicted=0
+[PASS] Image 366 | Expected=6 | Predicted=6
+[PASS] Image 367 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 93 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 93 completed in 1317 cycles.
+[PASS] Image 368 | Expected=6 | Predicted=6
+[PASS] Image 369 | Expected=3 | Predicted=3
+[PASS] Image 370 | Expected=7 | Predicted=7
+[PASS] Image 371 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 94 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 94 completed in 1317 cycles.
+[PASS] Image 372 | Expected=0 | Predicted=0
+[PASS] Image 373 | Expected=8 | Predicted=8
+[PASS] Image 374 | Expected=8 | Predicted=8
+[PASS] Image 375 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 95 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 95 completed in 1317 cycles.
+[PASS] Image 376 | Expected=4 | Predicted=4
+[PASS] Image 377 | Expected=1 | Predicted=1
+[PASS] Image 378 | Expected=1 | Predicted=1
+[PASS] Image 379 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 96 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 96 completed in 1317 cycles.
+[PASS] Image 380 | Expected=0 | Predicted=0
+[PASS] Image 381 | Expected=7 | Predicted=7
+[PASS] Image 382 | Expected=3 | Predicted=3
+[PASS] Image 383 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 97 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 97 completed in 1317 cycles.
+[PASS] Image 384 | Expected=6 | Predicted=6
+[PASS] Image 385 | Expected=1 | Predicted=1
+[PASS] Image 386 | Expected=6 | Predicted=6
+[PASS] Image 387 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 98 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 98 completed in 1317 cycles.
+[PASS] Image 388 | Expected=1 | Predicted=1
+[PASS] Image 389 | Expected=9 | Predicted=9
+[PASS] Image 390 | Expected=2 | Predicted=2
+[PASS] Image 391 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 99 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 99 completed in 1317 cycles.
+[PASS] Image 392 | Expected=6 | Predicted=6
+[PASS] Image 393 | Expected=1 | Predicted=1
+[PASS] Image 394 | Expected=9 | Predicted=9
+[PASS] Image 395 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 100 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 100 completed in 1317 cycles.
+[PASS] Image 396 | Expected=2 | Predicted=2
+[PASS] Image 397 | Expected=5 | Predicted=5
+[PASS] Image 398 | Expected=4 | Predicted=4
+[PASS] Image 399 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 101 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 101 completed in 1317 cycles.
+[PASS] Image 400 | Expected=2 | Predicted=2
+[PASS] Image 401 | Expected=8 | Predicted=8
+[PASS] Image 402 | Expected=3 | Predicted=3
+[PASS] Image 403 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 102 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 102 completed in 1317 cycles.
+[PASS] Image 404 | Expected=2 | Predicted=2
+[PASS] Image 405 | Expected=4 | Predicted=4
+[PASS] Image 406 | Expected=5 | Predicted=5
+[PASS] Image 407 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 103 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 103 completed in 1317 cycles.
+[PASS] Image 408 | Expected=3 | Predicted=3
+[PASS] Image 409 | Expected=1 | Predicted=1
+[PASS] Image 410 | Expected=7 | Predicted=7
+[PASS] Image 411 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 104 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 104 completed in 1317 cycles.
+[PASS] Image 412 | Expected=5 | Predicted=5
+[PASS] Image 413 | Expected=7 | Predicted=7
+[PASS] Image 414 | Expected=9 | Predicted=9
+[PASS] Image 415 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 105 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 105 completed in 1317 cycles.
+[PASS] Image 416 | Expected=1 | Predicted=1
+[PASS] Image 417 | Expected=9 | Predicted=9
+[PASS] Image 418 | Expected=2 | Predicted=2
+[PASS] Image 419 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 106 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 106 completed in 1317 cycles.
+[PASS] Image 420 | Expected=4 | Predicted=4
+[PASS] Image 421 | Expected=2 | Predicted=2
+[PASS] Image 422 | Expected=9 | Predicted=9
+[PASS] Image 423 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 107 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 107 completed in 1317 cycles.
+[PASS] Image 424 | Expected=0 | Predicted=0
+[PASS] Image 425 | Expected=4 | Predicted=4
+[PASS] Image 426 | Expected=9 | Predicted=9
+[PASS] Image 427 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 108 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 108 completed in 1317 cycles.
+[PASS] Image 428 | Expected=4 | Predicted=4
+[PASS] Image 429 | Expected=8 | Predicted=8
+[PASS] Image 430 | Expected=1 | Predicted=1
+[PASS] Image 431 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 109 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 109 completed in 1317 cycles.
+[PASS] Image 432 | Expected=4 | Predicted=4
+[PASS] Image 433 | Expected=5 | Predicted=5
+[PASS] Image 434 | Expected=9 | Predicted=9
+[PASS] Image 435 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 110 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 110 completed in 1317 cycles.
+[PASS] Image 436 | Expected=8 | Predicted=8
+[PASS] Image 437 | Expected=3 | Predicted=3
+[PASS] Image 438 | Expected=7 | Predicted=7
+[PASS] Image 439 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 111 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 111 completed in 1317 cycles.
+[PASS] Image 440 | Expected=0 | Predicted=0
+[PASS] Image 441 | Expected=0 | Predicted=0
+[PASS] Image 442 | Expected=3 | Predicted=3
+[PASS] Image 443 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 112 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 112 completed in 1317 cycles.
+[PASS] Image 444 | Expected=2 | Predicted=2
+[PASS] Image 445 | Expected=0 | Predicted=0
+[PASS] Image 446 | Expected=6 | Predicted=6
+[PASS] Image 447 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 113 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 113 completed in 1317 cycles.
+[PASS] Image 448 | Expected=9 | Predicted=9
+[PASS] Image 449 | Expected=5 | Predicted=5
+[PASS] Image 450 | Expected=3 | Predicted=3
+[PASS] Image 451 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 114 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 114 completed in 1317 cycles.
+[PASS] Image 452 | Expected=2 | Predicted=2
+[PASS] Image 453 | Expected=3 | Predicted=3
+[PASS] Image 454 | Expected=9 | Predicted=9
+[PASS] Image 455 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 115 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 115 completed in 1317 cycles.
+[PASS] Image 456 | Expected=2 | Predicted=2
+[PASS] Image 457 | Expected=6 | Predicted=6
+[PASS] Image 458 | Expected=8 | Predicted=8
+[PASS] Image 459 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 116 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 116 completed in 1317 cycles.
+[PASS] Image 460 | Expected=5 | Predicted=5
+[PASS] Image 461 | Expected=6 | Predicted=6
+[PASS] Image 462 | Expected=6 | Predicted=6
+[PASS] Image 463 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 117 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 117 completed in 1317 cycles.
+[PASS] Image 464 | Expected=3 | Predicted=3
+[PASS] Image 465 | Expected=8 | Predicted=8
+[PASS] Image 466 | Expected=8 | Predicted=8
+[PASS] Image 467 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 118 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 118 completed in 1317 cycles.
+[PASS] Image 468 | Expected=7 | Predicted=7
+[PASS] Image 469 | Expected=5 | Predicted=5
+[PASS] Image 470 | Expected=8 | Predicted=8
+[PASS] Image 471 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 119 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 119 completed in 1317 cycles.
+[PASS] Image 472 | Expected=6 | Predicted=6
+[PASS] Image 473 | Expected=1 | Predicted=1
+[PASS] Image 474 | Expected=8 | Predicted=8
+[PASS] Image 475 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 120 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 120 completed in 1317 cycles.
+[PASS] Image 476 | Expected=1 | Predicted=1
+[PASS] Image 477 | Expected=2 | Predicted=2
+[PASS] Image 478 | Expected=8 | Predicted=8
+[PASS] Image 479 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 121 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 121 completed in 1317 cycles.
+[PASS] Image 480 | Expected=1 | Predicted=1
+[PASS] Image 481 | Expected=9 | Predicted=9
+[PASS] Image 482 | Expected=7 | Predicted=7
+[PASS] Image 483 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 122 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 122 completed in 1317 cycles.
+[PASS] Image 484 | Expected=4 | Predicted=4
+[PASS] Image 485 | Expected=0 | Predicted=0
+[PASS] Image 486 | Expected=8 | Predicted=8
+[PASS] Image 487 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 123 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 123 completed in 1317 cycles.
+[PASS] Image 488 | Expected=9 | Predicted=9
+[PASS] Image 489 | Expected=1 | Predicted=1
+[PASS] Image 490 | Expected=0 | Predicted=0
+[PASS] Image 491 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 124 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 124 completed in 1317 cycles.
+[PASS] Image 492 | Expected=2 | Predicted=2
+[PASS] Image 493 | Expected=3 | Predicted=3
+[PASS] Image 494 | Expected=7 | Predicted=7
+[PASS] Image 495 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 125 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 125 completed in 1317 cycles.
+[PASS] Image 496 | Expected=9 | Predicted=9
+[PASS] Image 497 | Expected=4 | Predicted=4
+[PASS] Image 498 | Expected=0 | Predicted=0
+[PASS] Image 499 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 126 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 126 completed in 1317 cycles.
+[PASS] Image 500 | Expected=3 | Predicted=3
+[PASS] Image 501 | Expected=9 | Predicted=9
+[PASS] Image 502 | Expected=3 | Predicted=3
+[PASS] Image 503 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 127 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 127 completed in 1317 cycles.
+[PASS] Image 504 | Expected=1 | Predicted=1
+[PASS] Image 505 | Expected=3 | Predicted=3
+[PASS] Image 506 | Expected=1 | Predicted=1
+[PASS] Image 507 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 128 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 128 completed in 1317 cycles.
+[PASS] Image 508 | Expected=6 | Predicted=6
+[PASS] Image 509 | Expected=5 | Predicted=5
+[PASS] Image 510 | Expected=7 | Predicted=7
+[PASS] Image 511 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 129 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 129 completed in 1317 cycles.
+[PASS] Image 512 | Expected=2 | Predicted=2
+[PASS] Image 513 | Expected=2 | Predicted=2
+[PASS] Image 514 | Expected=6 | Predicted=6
+[PASS] Image 515 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 130 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 130 completed in 1317 cycles.
+[PASS] Image 516 | Expected=2 | Predicted=2
+[PASS] Image 517 | Expected=6 | Predicted=6
+[PASS] Image 518 | Expected=5 | Predicted=5
+[PASS] Image 519 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 131 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 131 completed in 1317 cycles.
+[PASS] Image 520 | Expected=8 | Predicted=8
+[PASS] Image 521 | Expected=9 | Predicted=9
+[PASS] Image 522 | Expected=7 | Predicted=7
+[PASS] Image 523 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 132 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 132 completed in 1317 cycles.
+[PASS] Image 524 | Expected=3 | Predicted=3
+[PASS] Image 525 | Expected=0 | Predicted=0
+[PASS] Image 526 | Expected=3 | Predicted=3
+[PASS] Image 527 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 133 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 133 completed in 1317 cycles.
+[PASS] Image 528 | Expected=3 | Predicted=3
+[PASS] Image 529 | Expected=1 | Predicted=1
+[PASS] Image 530 | Expected=4 | Predicted=4
+[PASS] Image 531 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 134 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 134 completed in 1317 cycles.
+[PASS] Image 532 | Expected=4 | Predicted=4
+[PASS] Image 533 | Expected=4 | Predicted=4
+[PASS] Image 534 | Expected=6 | Predicted=6
+[PASS] Image 535 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 135 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 135 completed in 1317 cycles.
+[PASS] Image 536 | Expected=1 | Predicted=1
+[PASS] Image 537 | Expected=1 | Predicted=1
+[PASS] Image 538 | Expected=8 | Predicted=8
+[PASS] Image 539 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 136 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 136 completed in 1317 cycles.
+[PASS] Image 540 | Expected=5 | Predicted=5
+[PASS] Image 541 | Expected=4 | Predicted=4
+[PASS] Image 542 | Expected=4 | Predicted=4
+[PASS] Image 543 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 137 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 137 completed in 1317 cycles.
+[PASS] Image 544 | Expected=4 | Predicted=4
+[PASS] Image 545 | Expected=0 | Predicted=0
+[PASS] Image 546 | Expected=0 | Predicted=0
+[PASS] Image 547 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 138 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 138 completed in 1317 cycles.
+[PASS] Image 548 | Expected=3 | Predicted=3
+[PASS] Image 549 | Expected=2 | Predicted=2
+[PASS] Image 550 | Expected=7 | Predicted=7
+[PASS] Image 551 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 139 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 139 completed in 1317 cycles.
+[PASS] Image 552 | Expected=0 | Predicted=0
+[PASS] Image 553 | Expected=8 | Predicted=8
+[PASS] Image 554 | Expected=7 | Predicted=7
+[PASS] Image 555 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 140 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 140 completed in 1317 cycles.
+[PASS] Image 556 | Expected=4 | Predicted=4
+[PASS] Image 557 | Expected=7 | Predicted=7
+[PASS] Image 558 | Expected=9 | Predicted=9
+[PASS] Image 559 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 141 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 141 completed in 1317 cycles.
+[PASS] Image 560 | Expected=9 | Predicted=9
+[PASS] Image 561 | Expected=0 | Predicted=0
+[PASS] Image 562 | Expected=9 | Predicted=9
+[PASS] Image 563 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 142 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 142 completed in 1317 cycles.
+[PASS] Image 564 | Expected=0 | Predicted=0
+[PASS] Image 565 | Expected=9 | Predicted=9
+[PASS] Image 566 | Expected=6 | Predicted=6
+[PASS] Image 567 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 143 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 143 completed in 1317 cycles.
+[PASS] Image 568 | Expected=6 | Predicted=6
+[PASS] Image 569 | Expected=3 | Predicted=3
+[PASS] Image 570 | Expected=5 | Predicted=5
+[PASS] Image 571 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 144 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 144 completed in 1317 cycles.
+[PASS] Image 572 | Expected=8 | Predicted=8
+[PASS] Image 573 | Expected=3 | Predicted=3
+[PASS] Image 574 | Expected=3 | Predicted=3
+[PASS] Image 575 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 145 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 145 completed in 1317 cycles.
+[PASS] Image 576 | Expected=3 | Predicted=3
+[PASS] Image 577 | Expected=3 | Predicted=3
+[PASS] Image 578 | Expected=3 | Predicted=3
+[PASS] Image 579 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 146 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 146 completed in 1317 cycles.
+[PASS] Image 580 | Expected=8 | Predicted=8
+[PASS] Image 581 | Expected=0 | Predicted=0
+[PASS] Image 582 | Expected=1 | Predicted=1
+[PASS] Image 583 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 147 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 147 completed in 1317 cycles.
+[PASS] Image 584 | Expected=1 | Predicted=1
+[PASS] Image 585 | Expected=7 | Predicted=7
+[PASS] Image 586 | Expected=0 | Predicted=0
+[PASS] Image 587 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 148 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 148 completed in 1317 cycles.
+[PASS] Image 588 | Expected=5 | Predicted=5
+[PASS] Image 589 | Expected=4 | Predicted=4
+[PASS] Image 590 | Expected=3 | Predicted=3
+[PASS] Image 591 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 149 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 149 completed in 1317 cycles.
+[PASS] Image 592 | Expected=0 | Predicted=0
+[PASS] Image 593 | Expected=9 | Predicted=9
+[PASS] Image 594 | Expected=6 | Predicted=6
+[PASS] Image 595 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 150 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 150 completed in 1317 cycles.
+[PASS] Image 596 | Expected=8 | Predicted=8
+[PASS] Image 597 | Expected=0 | Predicted=0
+[PASS] Image 598 | Expected=9 | Predicted=9
+[PASS] Image 599 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 151 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 151 completed in 1317 cycles.
+[PASS] Image 600 | Expected=6 | Predicted=6
+[PASS] Image 601 | Expected=8 | Predicted=8
+[PASS] Image 602 | Expected=6 | Predicted=6
+[PASS] Image 603 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 152 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 152 completed in 1317 cycles.
+[PASS] Image 604 | Expected=5 | Predicted=5
+[PASS] Image 605 | Expected=7 | Predicted=7
+[PASS] Image 606 | Expected=8 | Predicted=8
+[PASS] Image 607 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 153 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 153 completed in 1317 cycles.
+[PASS] Image 608 | Expected=0 | Predicted=0
+[PASS] Image 609 | Expected=2 | Predicted=2
+[PASS] Image 610 | Expected=6 | Predicted=6
+[PASS] Image 611 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 154 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 154 completed in 1317 cycles.
+[PASS] Image 612 | Expected=2 | Predicted=2
+[PASS] Image 613 | Expected=8 | Predicted=8
+[PASS] Image 614 | Expected=3 | Predicted=3
+[PASS] Image 615 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 155 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 155 completed in 1317 cycles.
+[PASS] Image 616 | Expected=9 | Predicted=9
+[PASS] Image 617 | Expected=7 | Predicted=7
+[PASS] Image 618 | Expected=5 | Predicted=5
+[PASS] Image 619 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 156 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 156 completed in 1317 cycles.
+[PASS] Image 620 | Expected=0 | Predicted=0
+[PASS] Image 621 | Expected=8 | Predicted=8
+[PASS] Image 622 | Expected=4 | Predicted=4
+[PASS] Image 623 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 157 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 157 completed in 1317 cycles.
+[PASS] Image 624 | Expected=2 | Predicted=2
+[PASS] Image 625 | Expected=6 | Predicted=6
+[PASS] Image 626 | Expected=7 | Predicted=7
+[PASS] Image 627 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 158 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 158 completed in 1317 cycles.
+[PASS] Image 628 | Expected=9 | Predicted=9
+[PASS] Image 629 | Expected=2 | Predicted=2
+[PASS] Image 630 | Expected=9 | Predicted=9
+[PASS] Image 631 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 159 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 159 completed in 1317 cycles.
+[PASS] Image 632 | Expected=2 | Predicted=2
+[PASS] Image 633 | Expected=2 | Predicted=2
+[PASS] Image 634 | Expected=9 | Predicted=9
+[PASS] Image 635 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 160 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 160 completed in 1317 cycles.
+[PASS] Image 636 | Expected=7 | Predicted=7
+[PASS] Image 637 | Expected=3 | Predicted=3
+[PASS] Image 638 | Expected=5 | Predicted=5
+[PASS] Image 639 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 161 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 161 completed in 1317 cycles.
+[PASS] Image 640 | Expected=1 | Predicted=1
+[PASS] Image 641 | Expected=8 | Predicted=8
+[PASS] Image 642 | Expected=0 | Predicted=0
+[PASS] Image 643 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 162 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 162 completed in 1317 cycles.
+[PASS] Image 644 | Expected=0 | Predicted=0
+[PASS] Image 645 | Expected=5 | Predicted=5
+[PASS] Image 646 | Expected=2 | Predicted=2
+[PASS] Image 647 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 163 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 163 completed in 1317 cycles.
+[PASS] Image 648 | Expected=3 | Predicted=3
+[PASS] Image 649 | Expected=7 | Predicted=7
+[PASS] Image 650 | Expected=6 | Predicted=6
+[PASS] Image 651 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 164 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 164 completed in 1317 cycles.
+[PASS] Image 652 | Expected=1 | Predicted=1
+[PASS] Image 653 | Expected=2 | Predicted=2
+[PASS] Image 654 | Expected=5 | Predicted=5
+[PASS] Image 655 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 165 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 165 completed in 1317 cycles.
+[PASS] Image 656 | Expected=0 | Predicted=0
+[PASS] Image 657 | Expected=3 | Predicted=3
+[PASS] Image 658 | Expected=7 | Predicted=7
+[PASS] Image 659 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 166 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 166 completed in 1317 cycles.
+[PASS] Image 660 | Expected=4 | Predicted=4
+[PASS] Image 661 | Expected=0 | Predicted=0
+[PASS] Image 662 | Expected=9 | Predicted=9
+[PASS] Image 663 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 167 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 167 completed in 1317 cycles.
+[PASS] Image 664 | Expected=8 | Predicted=8
+[PASS] Image 665 | Expected=6 | Predicted=6
+[PASS] Image 666 | Expected=7 | Predicted=7
+[PASS] Image 667 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 168 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 168 completed in 1317 cycles.
+[PASS] Image 668 | Expected=4 | Predicted=4
+[PASS] Image 669 | Expected=3 | Predicted=3
+[PASS] Image 670 | Expected=4 | Predicted=4
+[PASS] Image 671 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 169 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 169 completed in 1317 cycles.
+[PASS] Image 672 | Expected=1 | Predicted=1
+[PASS] Image 673 | Expected=9 | Predicted=9
+[PASS] Image 674 | Expected=5 | Predicted=5
+[PASS] Image 675 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 170 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 170 completed in 1317 cycles.
+[PASS] Image 676 | Expected=7 | Predicted=7
+[PASS] Image 677 | Expected=3 | Predicted=3
+[PASS] Image 678 | Expected=9 | Predicted=9
+[PASS] Image 679 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 171 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 171 completed in 1317 cycles.
+[PASS] Image 680 | Expected=6 | Predicted=6
+[PASS] Image 681 | Expected=9 | Predicted=9
+[PASS] Image 682 | Expected=1 | Predicted=1
+[PASS] Image 683 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 172 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 172 completed in 1317 cycles.
+[PASS] Image 684 | Expected=3 | Predicted=3
+[PASS] Image 685 | Expected=8 | Predicted=8
+[PASS] Image 686 | Expected=3 | Predicted=3
+[PASS] Image 687 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 173 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 173 completed in 1317 cycles.
+[PASS] Image 688 | Expected=6 | Predicted=6
+[PASS] Image 689 | Expected=7 | Predicted=7
+[PASS] Image 690 | Expected=2 | Predicted=2
+[PASS] Image 691 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 174 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 174 completed in 1317 cycles.
+[PASS] Image 692 | Expected=5 | Predicted=5
+[PASS] Image 693 | Expected=8 | Predicted=8
+[PASS] Image 694 | Expected=5 | Predicted=5
+[PASS] Image 695 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 175 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 175 completed in 1317 cycles.
+[PASS] Image 696 | Expected=1 | Predicted=1
+[PASS] Image 697 | Expected=4 | Predicted=4
+[PASS] Image 698 | Expected=4 | Predicted=4
+[PASS] Image 699 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 176 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 176 completed in 1317 cycles.
+[PASS] Image 700 | Expected=1 | Predicted=1
+[PASS] Image 701 | Expected=0 | Predicted=0
+[PASS] Image 702 | Expected=7 | Predicted=7
+[PASS] Image 703 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 177 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 177 completed in 1317 cycles.
+[PASS] Image 704 | Expected=0 | Predicted=0
+[PASS] Image 705 | Expected=7 | Predicted=7
+[PASS] Image 706 | Expected=9 | Predicted=9
+[PASS] Image 707 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 178 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 178 completed in 1317 cycles.
+[PASS] Image 708 | Expected=4 | Predicted=4
+[PASS] Image 709 | Expected=8 | Predicted=8
+[PASS] Image 710 | Expected=5 | Predicted=5
+[PASS] Image 711 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 179 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 179 completed in 1317 cycles.
+[PASS] Image 712 | Expected=4 | Predicted=4
+[PASS] Image 713 | Expected=0 | Predicted=0
+[PASS] Image 714 | Expected=8 | Predicted=8
+[PASS] Image 715 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 180 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 180 completed in 1317 cycles.
+[PASS] Image 716 | Expected=1 | Predicted=1
+[PASS] Image 717 | Expected=2 | Predicted=2
+[PASS] Image 718 | Expected=8 | Predicted=8
+[PASS] Image 719 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 181 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 181 completed in 1317 cycles.
+[PASS] Image 720 | Expected=8 | Predicted=8
+[PASS] Image 721 | Expected=0 | Predicted=0
+[PASS] Image 722 | Expected=4 | Predicted=4
+[PASS] Image 723 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 182 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 182 completed in 1317 cycles.
+[PASS] Image 724 | Expected=6 | Predicted=6
+[PASS] Image 725 | Expected=1 | Predicted=1
+[PASS] Image 726 | Expected=7 | Predicted=7
+[PASS] Image 727 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 183 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 183 completed in 1317 cycles.
+[PASS] Image 728 | Expected=2 | Predicted=2
+[PASS] Image 729 | Expected=6 | Predicted=6
+[PASS] Image 730 | Expected=7 | Predicted=7
+[PASS] Image 731 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 184 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 184 completed in 1317 cycles.
+[PASS] Image 732 | Expected=6 | Predicted=6
+[PASS] Image 733 | Expected=9 | Predicted=9
+[PASS] Image 734 | Expected=3 | Predicted=3
+[PASS] Image 735 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 185 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 185 completed in 1317 cycles.
+[PASS] Image 736 | Expected=4 | Predicted=4
+[PASS] Image 737 | Expected=6 | Predicted=6
+[PASS] Image 738 | Expected=2 | Predicted=2
+[PASS] Image 739 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 186 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 186 completed in 1317 cycles.
+[PASS] Image 740 | Expected=9 | Predicted=9
+[PASS] Image 741 | Expected=2 | Predicted=2
+[PASS] Image 742 | Expected=0 | Predicted=0
+[PASS] Image 743 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 187 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 187 completed in 1317 cycles.
+[PASS] Image 744 | Expected=2 | Predicted=2
+[PASS] Image 745 | Expected=1 | Predicted=1
+[PASS] Image 746 | Expected=7 | Predicted=7
+[PASS] Image 747 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 188 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 188 completed in 1317 cycles.
+[PASS] Image 748 | Expected=4 | Predicted=4
+[PASS] Image 749 | Expected=1 | Predicted=1
+[PASS] Image 750 | Expected=0 | Predicted=0
+[PASS] Image 751 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 189 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 189 completed in 1317 cycles.
+[PASS] Image 752 | Expected=4 | Predicted=4
+[PASS] Image 753 | Expected=3 | Predicted=3
+[PASS] Image 754 | Expected=1 | Predicted=1
+[PASS] Image 755 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 190 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 190 completed in 1317 cycles.
+[PASS] Image 756 | Expected=7 | Predicted=7
+[PASS] Image 757 | Expected=4 | Predicted=4
+[PASS] Image 758 | Expected=9 | Predicted=9
+[PASS] Image 759 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 191 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 191 completed in 1317 cycles.
+[PASS] Image 760 | Expected=9 | Predicted=9
+[PASS] Image 761 | Expected=8 | Predicted=8
+[PASS] Image 762 | Expected=4 | Predicted=4
+[PASS] Image 763 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 192 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 192 completed in 1317 cycles.
+[PASS] Image 764 | Expected=2 | Predicted=2
+[PASS] Image 765 | Expected=4 | Predicted=4
+[PASS] Image 766 | Expected=5 | Predicted=5
+[PASS] Image 767 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 193 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 193 completed in 1317 cycles.
+[PASS] Image 768 | Expected=1 | Predicted=1
+[PASS] Image 769 | Expected=6 | Predicted=6
+[PASS] Image 770 | Expected=4 | Predicted=4
+[PASS] Image 771 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 194 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 194 completed in 1317 cycles.
+[PASS] Image 772 | Expected=1 | Predicted=1
+[PASS] Image 773 | Expected=9 | Predicted=9
+[PASS] Image 774 | Expected=4 | Predicted=4
+[PASS] Image 775 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 195 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 195 completed in 1317 cycles.
+[PASS] Image 776 | Expected=4 | Predicted=4
+[PASS] Image 777 | Expected=1 | Predicted=1
+[PASS] Image 778 | Expected=5 | Predicted=5
+[PASS] Image 779 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 196 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 196 completed in 1317 cycles.
+[PASS] Image 780 | Expected=3 | Predicted=3
+[PASS] Image 781 | Expected=8 | Predicted=8
+[PASS] Image 782 | Expected=3 | Predicted=3
+[PASS] Image 783 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 197 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 197 completed in 1317 cycles.
+[PASS] Image 784 | Expected=4 | Predicted=4
+[PASS] Image 785 | Expected=5 | Predicted=5
+[PASS] Image 786 | Expected=6 | Predicted=6
+[PASS] Image 787 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 198 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 198 completed in 1317 cycles.
+[PASS] Image 788 | Expected=9 | Predicted=9
+[PASS] Image 789 | Expected=4 | Predicted=4
+[PASS] Image 790 | Expected=1 | Predicted=1
+[PASS] Image 791 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 199 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 199 completed in 1317 cycles.
+[PASS] Image 792 | Expected=3 | Predicted=3
+[PASS] Image 793 | Expected=8 | Predicted=8
+[PASS] Image 794 | Expected=0 | Predicted=0
+[PASS] Image 795 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 200 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 200 completed in 1317 cycles.
+[PASS] Image 796 | Expected=2 | Predicted=2
+[PASS] Image 797 | Expected=5 | Predicted=5
+[PASS] Image 798 | Expected=1 | Predicted=1
+[PASS] Image 799 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 201 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 201 completed in 1317 cycles.
+[PASS] Image 800 | Expected=8 | Predicted=8
+[PASS] Image 801 | Expected=3 | Predicted=3
+[PASS] Image 802 | Expected=4 | Predicted=4
+[PASS] Image 803 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 202 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 202 completed in 1317 cycles.
+[PASS] Image 804 | Expected=0 | Predicted=0
+[PASS] Image 805 | Expected=8 | Predicted=8
+[PASS] Image 806 | Expected=8 | Predicted=8
+[PASS] Image 807 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 203 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 203 completed in 1317 cycles.
+[PASS] Image 808 | Expected=3 | Predicted=3
+[PASS] Image 809 | Expected=1 | Predicted=1
+[PASS] Image 810 | Expected=2 | Predicted=2
+[PASS] Image 811 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 204 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 204 completed in 1317 cycles.
+[PASS] Image 812 | Expected=5 | Predicted=5
+[PASS] Image 813 | Expected=9 | Predicted=9
+[PASS] Image 814 | Expected=6 | Predicted=6
+[PASS] Image 815 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 205 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 205 completed in 1317 cycles.
+[PASS] Image 816 | Expected=2 | Predicted=2
+[PASS] Image 817 | Expected=6 | Predicted=6
+[PASS] Image 818 | Expected=1 | Predicted=1
+[PASS] Image 819 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 206 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 206 completed in 1317 cycles.
+[PASS] Image 820 | Expected=6 | Predicted=6
+[PASS] Image 821 | Expected=0 | Predicted=0
+[PASS] Image 822 | Expected=7 | Predicted=7
+[PASS] Image 823 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 207 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 207 completed in 1317 cycles.
+[PASS] Image 824 | Expected=1 | Predicted=1
+[PASS] Image 825 | Expected=7 | Predicted=7
+[PASS] Image 826 | Expected=1 | Predicted=1
+[PASS] Image 827 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 208 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 208 completed in 1317 cycles.
+[PASS] Image 828 | Expected=2 | Predicted=2
+[PASS] Image 829 | Expected=4 | Predicted=4
+[PASS] Image 830 | Expected=2 | Predicted=2
+[PASS] Image 831 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 209 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 209 completed in 1317 cycles.
+[PASS] Image 832 | Expected=7 | Predicted=7
+[PASS] Image 833 | Expected=9 | Predicted=9
+[PASS] Image 834 | Expected=6 | Predicted=6
+[PASS] Image 835 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 210 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 210 completed in 1317 cycles.
+[PASS] Image 836 | Expected=1 | Predicted=1
+[PASS] Image 837 | Expected=2 | Predicted=2
+[PASS] Image 838 | Expected=4 | Predicted=4
+[PASS] Image 839 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 211 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 211 completed in 1317 cycles.
+[PASS] Image 840 | Expected=1 | Predicted=1
+[PASS] Image 841 | Expected=7 | Predicted=7
+[PASS] Image 842 | Expected=7 | Predicted=7
+[PASS] Image 843 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 212 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 212 completed in 1317 cycles.
+[PASS] Image 844 | Expected=7 | Predicted=7
+[PASS] Image 845 | Expected=0 | Predicted=0
+[PASS] Image 846 | Expected=7 | Predicted=7
+[PASS] Image 847 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 213 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 213 completed in 1317 cycles.
+[PASS] Image 848 | Expected=1 | Predicted=1
+[PASS] Image 849 | Expected=3 | Predicted=3
+[PASS] Image 850 | Expected=1 | Predicted=1
+[PASS] Image 851 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 214 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 214 completed in 1317 cycles.
+[PASS] Image 852 | Expected=7 | Predicted=7
+[PASS] Image 853 | Expected=7 | Predicted=7
+[PASS] Image 854 | Expected=0 | Predicted=0
+[PASS] Image 855 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 215 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 215 completed in 1317 cycles.
+[PASS] Image 856 | Expected=5 | Predicted=5
+[PASS] Image 857 | Expected=5 | Predicted=5
+[PASS] Image 858 | Expected=2 | Predicted=2
+[PASS] Image 859 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 216 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 216 completed in 1317 cycles.
+[PASS] Image 860 | Expected=6 | Predicted=6
+[PASS] Image 861 | Expected=6 | Predicted=6
+[PASS] Image 862 | Expected=9 | Predicted=9
+[PASS] Image 863 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 217 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 217 completed in 1317 cycles.
+[PASS] Image 864 | Expected=8 | Predicted=8
+[PASS] Image 865 | Expected=3 | Predicted=3
+[PASS] Image 866 | Expected=5 | Predicted=5
+[PASS] Image 867 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 218 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 218 completed in 1317 cycles.
+[PASS] Image 868 | Expected=2 | Predicted=2
+[PASS] Image 869 | Expected=5 | Predicted=5
+[PASS] Image 870 | Expected=6 | Predicted=6
+[PASS] Image 871 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 219 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 219 completed in 1317 cycles.
+[PASS] Image 872 | Expected=8 | Predicted=8
+[PASS] Image 873 | Expected=2 | Predicted=2
+[PASS] Image 874 | Expected=9 | Predicted=9
+[PASS] Image 875 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 220 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 220 completed in 1317 cycles.
+[PASS] Image 876 | Expected=8 | Predicted=8
+[PASS] Image 877 | Expected=8 | Predicted=8
+[PASS] Image 878 | Expected=8 | Predicted=8
+[PASS] Image 879 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 221 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 221 completed in 1317 cycles.
+[PASS] Image 880 | Expected=7 | Predicted=7
+[PASS] Image 881 | Expected=9 | Predicted=9
+[PASS] Image 882 | Expected=9 | Predicted=9
+[PASS] Image 883 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 222 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 222 completed in 1317 cycles.
+[PASS] Image 884 | Expected=0 | Predicted=0
+[PASS] Image 885 | Expected=6 | Predicted=6
+[PASS] Image 886 | Expected=6 | Predicted=6
+[PASS] Image 887 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 223 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 223 completed in 1317 cycles.
+[PASS] Image 888 | Expected=2 | Predicted=2
+[PASS] Image 889 | Expected=1 | Predicted=1
+[PASS] Image 890 | Expected=3 | Predicted=3
+[PASS] Image 891 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 224 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 224 completed in 1317 cycles.
+[PASS] Image 892 | Expected=2 | Predicted=2
+[PASS] Image 893 | Expected=9 | Predicted=9
+[PASS] Image 894 | Expected=3 | Predicted=3
+[PASS] Image 895 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 225 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 225 completed in 1317 cycles.
+[PASS] Image 896 | Expected=0 | Predicted=0
+[PASS] Image 897 | Expected=5 | Predicted=5
+[PASS] Image 898 | Expected=7 | Predicted=7
+[PASS] Image 899 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 226 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 226 completed in 1317 cycles.
+[PASS] Image 900 | Expected=1 | Predicted=1
+[PASS] Image 901 | Expected=4 | Predicted=4
+[PASS] Image 902 | Expected=4 | Predicted=4
+[PASS] Image 903 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 227 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 227 completed in 1317 cycles.
+[PASS] Image 904 | Expected=0 | Predicted=0
+[PASS] Image 905 | Expected=2 | Predicted=2
+[PASS] Image 906 | Expected=9 | Predicted=9
+[PASS] Image 907 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 228 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 228 completed in 1317 cycles.
+[PASS] Image 908 | Expected=4 | Predicted=4
+[PASS] Image 909 | Expected=7 | Predicted=7
+[PASS] Image 910 | Expected=4 | Predicted=4
+[PASS] Image 911 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 229 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 229 completed in 1317 cycles.
+[PASS] Image 912 | Expected=3 | Predicted=3
+[PASS] Image 913 | Expected=9 | Predicted=9
+[PASS] Image 914 | Expected=8 | Predicted=8
+[PASS] Image 915 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 230 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 230 completed in 1317 cycles.
+[PASS] Image 916 | Expected=4 | Predicted=4
+[PASS] Image 917 | Expected=7 | Predicted=7
+[PASS] Image 918 | Expected=1 | Predicted=1
+[PASS] Image 919 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 231 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 231 completed in 1317 cycles.
+[PASS] Image 920 | Expected=1 | Predicted=1
+[PASS] Image 921 | Expected=2 | Predicted=2
+[PASS] Image 922 | Expected=2 | Predicted=2
+[PASS] Image 923 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 232 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 232 completed in 1317 cycles.
+[PASS] Image 924 | Expected=7 | Predicted=7
+[PASS] Image 925 | Expected=3 | Predicted=3
+[PASS] Image 926 | Expected=2 | Predicted=2
+[PASS] Image 927 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 233 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 233 completed in 1317 cycles.
+[PASS] Image 928 | Expected=9 | Predicted=9
+[PASS] Image 929 | Expected=1 | Predicted=1
+[PASS] Image 930 | Expected=7 | Predicted=7
+[PASS] Image 931 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 234 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 234 completed in 1317 cycles.
+[PASS] Image 932 | Expected=0 | Predicted=0
+[PASS] Image 933 | Expected=3 | Predicted=3
+[PASS] Image 934 | Expected=5 | Predicted=5
+[PASS] Image 935 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 235 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 235 completed in 1317 cycles.
+[PASS] Image 936 | Expected=8 | Predicted=8
+[PASS] Image 937 | Expected=6 | Predicted=6
+[PASS] Image 938 | Expected=5 | Predicted=5
+[PASS] Image 939 | Expected=0 | Predicted=0
+
+
+==============================================
+          BATCH 236 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 236 completed in 1317 cycles.
+[PASS] Image 940 | Expected=6 | Predicted=6
+[PASS] Image 941 | Expected=7 | Predicted=7
+[PASS] Image 942 | Expected=6 | Predicted=6
+[PASS] Image 943 | Expected=6 | Predicted=6
+
+
+==============================================
+          BATCH 237 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 237 completed in 1317 cycles.
+[PASS] Image 944 | Expected=3 | Predicted=3
+[PASS] Image 945 | Expected=2 | Predicted=2
+[PASS] Image 946 | Expected=7 | Predicted=7
+[PASS] Image 947 | Expected=9 | Predicted=9
+
+
+==============================================
+          BATCH 238 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 238 completed in 1317 cycles.
+[PASS] Image 948 | Expected=1 | Predicted=1
+[PASS] Image 949 | Expected=1 | Predicted=1
+[PASS] Image 950 | Expected=2 | Predicted=2
+[PASS] Image 951 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 239 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 239 completed in 1317 cycles.
+[PASS] Image 952 | Expected=6 | Predicted=6
+[PASS] Image 953 | Expected=4 | Predicted=4
+[PASS] Image 954 | Expected=9 | Predicted=9
+[PASS] Image 955 | Expected=5 | Predicted=5
+
+
+==============================================
+          BATCH 240 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 240 completed in 1317 cycles.
+[PASS] Image 956 | Expected=2 | Predicted=2
+[PASS] Image 957 | Expected=3 | Predicted=3
+[PASS] Image 958 | Expected=3 | Predicted=3
+[PASS] Image 959 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 241 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 241 completed in 1317 cycles.
+[PASS] Image 960 | Expected=7 | Predicted=7
+[PASS] Image 961 | Expected=8 | Predicted=8
+[PASS] Image 962 | Expected=9 | Predicted=9
+[PASS] Image 963 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 242 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 242 completed in 1317 cycles.
+[PASS] Image 964 | Expected=1 | Predicted=1
+[PASS] Image 965 | Expected=0 | Predicted=0
+[PASS] Image 966 | Expected=9 | Predicted=9
+[PASS] Image 967 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 243 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 243 completed in 1317 cycles.
+[PASS] Image 968 | Expected=4 | Predicted=4
+[PASS] Image 969 | Expected=4 | Predicted=4
+[PASS] Image 970 | Expected=5 | Predicted=5
+[PASS] Image 971 | Expected=4 | Predicted=4
+
+
+==============================================
+          BATCH 244 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 244 completed in 1317 cycles.
+[PASS] Image 972 | Expected=0 | Predicted=0
+[PASS] Image 973 | Expected=6 | Predicted=6
+[PASS] Image 974 | Expected=2 | Predicted=2
+[PASS] Image 975 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 245 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 245 completed in 1317 cycles.
+[PASS] Image 976 | Expected=3 | Predicted=3
+[PASS] Image 977 | Expected=1 | Predicted=1
+[PASS] Image 978 | Expected=5 | Predicted=5
+[PASS] Image 979 | Expected=1 | Predicted=1
+
+
+==============================================
+          BATCH 246 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 246 completed in 1317 cycles.
+[PASS] Image 980 | Expected=2 | Predicted=2
+[PASS] Image 981 | Expected=0 | Predicted=0
+[PASS] Image 982 | Expected=3 | Predicted=3
+[PASS] Image 983 | Expected=8 | Predicted=8
+
+
+==============================================
+          BATCH 247 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 247 completed in 1317 cycles.
+[PASS] Image 984 | Expected=1 | Predicted=1
+[PASS] Image 985 | Expected=2 | Predicted=2
+[PASS] Image 986 | Expected=6 | Predicted=6
+[PASS] Image 987 | Expected=7 | Predicted=7
+
+
+==============================================
+          BATCH 248 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 248 completed in 1317 cycles.
+[PASS] Image 988 | Expected=1 | Predicted=1
+[PASS] Image 989 | Expected=6 | Predicted=6
+[PASS] Image 990 | Expected=2 | Predicted=2
+[PASS] Image 991 | Expected=3 | Predicted=3
+
+
+==============================================
+          BATCH 249 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 249 completed in 1317 cycles.
+[PASS] Image 992 | Expected=9 | Predicted=9
+[PASS] Image 993 | Expected=0 | Predicted=0
+[PASS] Image 994 | Expected=1 | Predicted=1
+[PASS] Image 995 | Expected=2 | Predicted=2
+
+
+==============================================
+          BATCH 250 / 250
+==============================================
+[TOP] Inference started.
+[FC1] All 1568 tiles submitted.
+[TOP] Waiting for FC1 and FC2...
+[PASS] Batch 250 completed in 1317 cycles.
+[PASS] Image 996 | Expected=2 | Predicted=2
+[PASS] Image 997 | Expected=0 | Predicted=0
+[PASS] Image 998 | Expected=8 | Predicted=8
+[PASS] Image 999 | Expected=9 | Predicted=9
+
+
+================================================
+          1000-IMAGE VERIFICATION RESULTS
+================================================
+Images processed       : 1000
+Batches completed      : 250
+FC1 tile transactions  : 392000
+Logit comparisons      : 10000
+Prediction comparisons : 1000
+Classification accuracy : 948 / 1000 (94.8%)
+-----------------------------------------------
+Passed checks          : 11250
+Failed checks          : 0
+Expected checks        : 11250
+-----------------------------------------------
+
+[PASS] ALL 1000 IMAGES VERIFIED!
+[PASS] RTL LOGITS MATCH PYTHON REFERENCE!
+[PASS] ALL RTL PREDICTIONS MATCH PYTHON!
+[INFO] Classification accuracy: 94.8%
+================================================
+testbench/tb_mnist_1000_images.v:568: $finish called at 62125030000 (1ps)

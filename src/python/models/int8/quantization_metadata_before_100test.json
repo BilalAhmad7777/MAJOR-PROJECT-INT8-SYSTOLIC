@@ -1,0 +1,20 @@
+{
+    "architecture": "784-32-10",
+    "quantization": "symmetric_signed_int8",
+    "input_scale": 0.02221643079922894,
+    "fc1_weight_scale": 0.00311386233239662,
+    "fc2_weight_scale": 0.004544627009414312,
+    "fc1_weight_shape": [
+        32,
+        784
+    ],
+    "fc2_weight_shape": [
+        10,
+        32
+    ],
+    "bias_format": "float32_preserved_for_software_inference",
+    "hardware_note": "Current RTL does not yet implement bias addition or full-layer accumulation across 4-element reduction tiles.",
+    "hidden_activation_scale": 0.23253840348851962,
+    "fc1_bias_quantized": true,
+    "fc2_bias_quantized": true
+}

@@ -1,0 +1,25 @@
+
+========================================
+ FC1 EXHAUSTIVE RTL TILE VERIFICATION
+========================================
+[PROGRESS] Completed 196 / 1568 tiles
+[PROGRESS] Completed 392 / 1568 tiles
+[PROGRESS] Completed 588 / 1568 tiles
+[PROGRESS] Completed 784 / 1568 tiles
+[PROGRESS] Completed 980 / 1568 tiles
+[PROGRESS] Completed 1176 / 1568 tiles
+[PROGRESS] Completed 1372 / 1568 tiles
+[PROGRESS] Completed 1568 / 1568 tiles
+
+========================================
+ EXHAUSTIVE VERIFICATION RESULTS
+========================================
+Tiles processed: 1568
+Outputs checked: 25088
+PASS: 25088
+FAIL: 0
+
+[PASS] ALL FC1 RTL TILE OUTPUTS MATCH PYTHON!
+========================================
+
+testbench/tb_fc1_all_tiles.v:157: $finish called at 156830000 (1ps)

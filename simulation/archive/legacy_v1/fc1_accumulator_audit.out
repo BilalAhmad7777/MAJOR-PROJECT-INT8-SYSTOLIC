@@ -1,0 +1,430 @@
+#! /opt/homebrew/Cellar/icarus-verilog/13.0/bin/vvp
+:ivl_version "13.0 (stable)" "(v13_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/va_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2009.vpi";
+S_0x104c1ba70 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x104c139e0 .scope module, "tb_fc1_tile_accumulator" "tb_fc1_tile_accumulator" 3 3;
+ .timescale -9 -12;
+P_0x104c1a4b0 .param/l "TILE_COUNT" 1 3 5, +C4<00000000000000000000000011000100>;
+v0x78cb03d040_0 .net/s "accumulated_matrix", 511 0, L_0x104c19d70;  1 drivers
+v0x78cb03d0e0_0 .var "clear_acc", 0 0;
+v0x78cb03d180_0 .var "clk", 0 0;
+v0x78cb03d220_0 .net "done", 0 0, v0x78cb03cc80_0;  1 drivers
+v0x78cb03d2c0 .array/s "expected", 15 0, 31 0;
+v0x78cb03d360_0 .var/i "fail_count", 31 0;
+v0x78cb03d400_0 .var/i "i", 31 0;
+v0x78cb03d4a0_0 .var/i "pass_count", 31 0;
+v0x78cb03d540_0 .var "rst_n", 0 0;
+v0x78cb03d5e0_0 .var/i "t", 31 0;
+v0x78cb03d680_0 .var/s "tile_result_matrix", 511 0;
+v0x78cb03d720_0 .var "tile_valid", 0 0;
+v0x78cb03d7c0_0 .var/i "timeout_count", 31 0;
+E_0x78cb044000 .event negedge, v0x78cb03cbe0_0;
+S_0x104c13b60 .scope module, "dut" "fc1_tile_accumulator" 3 24, 4 3 0, S_0x104c139e0;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 1 "rst_n";
+    .port_info 2 /INPUT 1 "clear_acc";
+    .port_info 3 /INPUT 1 "tile_valid";
+    .port_info 4 /INPUT 512 "tile_result_matrix";
+    .port_info 5 /OUTPUT 512 "accumulated_matrix";
+    .port_info 6 /OUTPUT 1 "done";
+P_0x78cb044040 .param/l "TILE_COUNT" 0 4 4, +C4<00000000000000000000000011000100>;
+v0x78cb03ca00_0 .net/s "accumulated_matrix", 511 0, L_0x104c19d70;  alias, 1 drivers
+v0x78cb03caa0 .array/s "accumulator", 15 0, 31 0;
+v0x78cb03cb40_0 .net "clear_acc", 0 0, v0x78cb03d0e0_0;  1 drivers
+v0x78cb03cbe0_0 .net "clk", 0 0, v0x78cb03d180_0;  1 drivers
+v0x78cb03cc80_0 .var "done", 0 0;
+v0x78cb03cd20_0 .var/i "i", 31 0;
+v0x78cb03cdc0_0 .net "rst_n", 0 0, v0x78cb03d540_0;  1 drivers
+v0x78cb03ce60_0 .var "tile_count", 7 0;
+v0x78cb03cf00_0 .net/s "tile_result_matrix", 511 0, v0x78cb03d680_0;  1 drivers
+v0x78cb03cfa0_0 .net "tile_valid", 0 0, v0x78cb03d720_0;  1 drivers
+E_0x78cb0440c0/0 .event negedge, v0x78cb03cdc0_0;
+E_0x78cb0440c0/1 .event posedge, v0x78cb03cbe0_0;
+E_0x78cb0440c0 .event/or E_0x78cb0440c0/0, E_0x78cb0440c0/1;
+v0x78cb03caa0_0 .array/port v0x78cb03caa0, 0;
+v0x78cb03caa0_1 .array/port v0x78cb03caa0, 1;
+v0x78cb03caa0_2 .array/port v0x78cb03caa0, 2;
+v0x78cb03caa0_3 .array/port v0x78cb03caa0, 3;
+LS_0x104c19d70_0_0 .concat8 [ 32 32 32 32], v0x78cb03caa0_0, v0x78cb03caa0_1, v0x78cb03caa0_2, v0x78cb03caa0_3;
+v0x78cb03caa0_4 .array/port v0x78cb03caa0, 4;
+v0x78cb03caa0_5 .array/port v0x78cb03caa0, 5;
+v0x78cb03caa0_6 .array/port v0x78cb03caa0, 6;
+v0x78cb03caa0_7 .array/port v0x78cb03caa0, 7;
+LS_0x104c19d70_0_4 .concat8 [ 32 32 32 32], v0x78cb03caa0_4, v0x78cb03caa0_5, v0x78cb03caa0_6, v0x78cb03caa0_7;
+v0x78cb03caa0_8 .array/port v0x78cb03caa0, 8;
+v0x78cb03caa0_9 .array/port v0x78cb03caa0, 9;
+v0x78cb03caa0_10 .array/port v0x78cb03caa0, 10;
+v0x78cb03caa0_11 .array/port v0x78cb03caa0, 11;
+LS_0x104c19d70_0_8 .concat8 [ 32 32 32 32], v0x78cb03caa0_8, v0x78cb03caa0_9, v0x78cb03caa0_10, v0x78cb03caa0_11;
+v0x78cb03caa0_12 .array/port v0x78cb03caa0, 12;
+v0x78cb03caa0_13 .array/port v0x78cb03caa0, 13;
+v0x78cb03caa0_14 .array/port v0x78cb03caa0, 14;
+v0x78cb03caa0_15 .array/port v0x78cb03caa0, 15;
+LS_0x104c19d70_0_12 .concat8 [ 32 32 32 32], v0x78cb03caa0_12, v0x78cb03caa0_13, v0x78cb03caa0_14, v0x78cb03caa0_15;
+L_0x104c19d70 .concat8 [ 128 128 128 128], LS_0x104c19d70_0_0, LS_0x104c19d70_0_4, LS_0x104c19d70_0_8, LS_0x104c19d70_0_12;
+S_0x104c0e110 .scope generate, "OUTPUT_PACK[0]" "OUTPUT_PACK[0]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044100 .param/l "g" 1 4 22, +C4<00>;
+v0x78cb03c000_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_0;  1 drivers
+S_0x104c0e290 .scope generate, "OUTPUT_PACK[1]" "OUTPUT_PACK[1]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044180 .param/l "g" 1 4 22, +C4<01>;
+v0x78cb03c0a0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_1;  1 drivers
+S_0x104c1cf70 .scope generate, "OUTPUT_PACK[2]" "OUTPUT_PACK[2]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044200 .param/l "g" 1 4 22, +C4<010>;
+v0x78cb03c140_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_2;  1 drivers
+S_0x104c1e550 .scope generate, "OUTPUT_PACK[3]" "OUTPUT_PACK[3]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044280 .param/l "g" 1 4 22, +C4<011>;
+v0x78cb03c1e0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_3;  1 drivers
+S_0x104c1c470 .scope generate, "OUTPUT_PACK[4]" "OUTPUT_PACK[4]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044300 .param/l "g" 1 4 22, +C4<0100>;
+v0x78cb03c280_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_4;  1 drivers
+S_0x104c1c5f0 .scope generate, "OUTPUT_PACK[5]" "OUTPUT_PACK[5]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044380 .param/l "g" 1 4 22, +C4<0101>;
+v0x78cb03c320_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_5;  1 drivers
+S_0x104c1f070 .scope generate, "OUTPUT_PACK[6]" "OUTPUT_PACK[6]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044400 .param/l "g" 1 4 22, +C4<0110>;
+v0x78cb03c3c0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_6;  1 drivers
+S_0x104c1f1f0 .scope generate, "OUTPUT_PACK[7]" "OUTPUT_PACK[7]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044480 .param/l "g" 1 4 22, +C4<0111>;
+v0x78cb03c460_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_7;  1 drivers
+S_0x104c1f370 .scope generate, "OUTPUT_PACK[8]" "OUTPUT_PACK[8]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044500 .param/l "g" 1 4 22, +C4<01000>;
+v0x78cb03c500_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_8;  1 drivers
+S_0x78cac98000 .scope generate, "OUTPUT_PACK[9]" "OUTPUT_PACK[9]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044580 .param/l "g" 1 4 22, +C4<01001>;
+v0x78cb03c5a0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_9;  1 drivers
+S_0x78cac98180 .scope generate, "OUTPUT_PACK[10]" "OUTPUT_PACK[10]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044600 .param/l "g" 1 4 22, +C4<01010>;
+v0x78cb03c640_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_10;  1 drivers
+S_0x78cac98300 .scope generate, "OUTPUT_PACK[11]" "OUTPUT_PACK[11]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044680 .param/l "g" 1 4 22, +C4<01011>;
+v0x78cb03c6e0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_11;  1 drivers
+S_0x78cac98480 .scope generate, "OUTPUT_PACK[12]" "OUTPUT_PACK[12]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044700 .param/l "g" 1 4 22, +C4<01100>;
+v0x78cb03c780_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_12;  1 drivers
+S_0x78cac98600 .scope generate, "OUTPUT_PACK[13]" "OUTPUT_PACK[13]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044780 .param/l "g" 1 4 22, +C4<01101>;
+v0x78cb03c820_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_13;  1 drivers
+S_0x78cac98780 .scope generate, "OUTPUT_PACK[14]" "OUTPUT_PACK[14]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044800 .param/l "g" 1 4 22, +C4<01110>;
+v0x78cb03c8c0_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_14;  1 drivers
+S_0x78cac98900 .scope generate, "OUTPUT_PACK[15]" "OUTPUT_PACK[15]" 4 22, 4 22 0, S_0x104c13b60;
+ .timescale -9 -12;
+P_0x78cb044880 .param/l "g" 1 4 22, +C4<01111>;
+v0x78cb03c960_0 .net *"_ivl_2", 31 0, v0x78cb03caa0_15;  1 drivers
+    .scope S_0x104c13b60;
+T_0 ;
+    %wait E_0x78cb0440c0;
+    %load/vec4 v0x78cb03cdc0_0;
+    %nor/r;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %pushi/vec4 0, 0, 8;
+    %assign/vec4 v0x78cb03ce60_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x78cb03cc80_0, 0;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+T_0.2 ; Top of for-loop
+    %load/vec4 v0x78cb03cd20_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_0.3, 5;
+    %pushi/vec4 0, 0, 32;
+    %ix/getv/s 3, v0x78cb03cd20_0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v0x78cb03caa0, 0, 4;
+T_0.4 ; for-loop step statement
+    %load/vec4 v0x78cb03cd20_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+    %jmp T_0.2;
+T_0.3 ; for-loop exit label
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0x78cb03cb40_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.5, 8;
+    %pushi/vec4 0, 0, 8;
+    %assign/vec4 v0x78cb03ce60_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x78cb03cc80_0, 0;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+T_0.7 ; Top of for-loop
+    %load/vec4 v0x78cb03cd20_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_0.8, 5;
+    %pushi/vec4 0, 0, 32;
+    %ix/getv/s 3, v0x78cb03cd20_0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v0x78cb03caa0, 0, 4;
+T_0.9 ; for-loop step statement
+    %load/vec4 v0x78cb03cd20_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+    %jmp T_0.7;
+T_0.8 ; for-loop exit label
+    %jmp T_0.6;
+T_0.5 ;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x78cb03cc80_0, 0;
+    %load/vec4 v0x78cb03cfa0_0;
+    %flag_set/vec4 9;
+    %flag_get/vec4 9;
+    %jmp/0 T_0.12, 9;
+    %load/vec4 v0x78cb03ce60_0;
+    %pad/u 32;
+    %cmpi/u 196, 0, 32;
+    %flag_get/vec4 5;
+    %and;
+T_0.12;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.10, 8;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+T_0.13 ; Top of for-loop
+    %load/vec4 v0x78cb03cd20_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_0.14, 5;
+    %ix/getv/s 4, v0x78cb03cd20_0;
+    %load/vec4a v0x78cb03caa0, 4;
+    %load/vec4 v0x78cb03cf00_0;
+    %load/vec4 v0x78cb03cd20_0;
+    %muli 32, 0, 32;
+    %part/s 32;
+    %add;
+    %ix/getv/s 3, v0x78cb03cd20_0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v0x78cb03caa0, 0, 4;
+T_0.15 ; for-loop step statement
+    %load/vec4 v0x78cb03cd20_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03cd20_0, 0, 32;
+    %jmp T_0.13;
+T_0.14 ; for-loop exit label
+    %load/vec4 v0x78cb03ce60_0;
+    %pad/u 32;
+    %cmpi/e 195, 0, 32;
+    %jmp/0xz  T_0.16, 4;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0x78cb03cc80_0, 0;
+T_0.16 ;
+    %load/vec4 v0x78cb03ce60_0;
+    %addi 1, 0, 8;
+    %assign/vec4 v0x78cb03ce60_0, 0;
+T_0.10 ;
+T_0.6 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0x104c139e0;
+T_1 ;
+    %delay 5000, 0;
+    %load/vec4 v0x78cb03d180_0;
+    %inv;
+    %store/vec4 v0x78cb03d180_0, 0, 1;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_0x104c139e0;
+T_2 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d180_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d540_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d0e0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d720_0, 0, 1;
+    %pushi/vec4 0, 0, 512;
+    %store/vec4 v0x78cb03d680_0, 0, 512;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d4a0_0, 0, 32;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d360_0, 0, 32;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d7c0_0, 0, 32;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+T_2.0 ; Top of for-loop
+    %load/vec4 v0x78cb03d400_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_2.1, 5;
+    %pushi/vec4 0, 0, 32;
+    %ix/getv/s 4, v0x78cb03d400_0;
+    %store/vec4a v0x78cb03d2c0, 4, 0;
+T_2.2 ; for-loop step statement
+    %load/vec4 v0x78cb03d400_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+    %jmp T_2.0;
+T_2.1 ; for-loop exit label
+    %vpi_call/w 3 49 "$display", "===== FC1 TILE ACCUMULATOR TEST =====" {0 0 0};
+    %pushi/vec4 3, 0, 32;
+T_2.3 %dup/vec4;
+    %cmpi/s 0, 0, 32;
+    %jmp/1xz T_2.4, 5;
+    %jmp/1 T_2.4, 4;
+    %subi 1, 0, 32;
+    %wait E_0x78cb044000;
+    %jmp T_2.3;
+T_2.4 ;
+    %pop/vec4 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x78cb03d540_0, 0, 1;
+    %wait E_0x78cb044000;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x78cb03d0e0_0, 0, 1;
+    %wait E_0x78cb044000;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d0e0_0, 0, 1;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d5e0_0, 0, 32;
+T_2.5 ; Top of for-loop
+    %load/vec4 v0x78cb03d5e0_0;
+    %cmpi/s 196, 0, 32;
+	  %jmp/0xz T_2.6, 5;
+    %wait E_0x78cb044000;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+T_2.8 ; Top of for-loop
+    %load/vec4 v0x78cb03d400_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_2.9, 5;
+    %load/vec4 v0x78cb03d5e0_0;
+    %addi 1, 0, 32;
+    %load/vec4 v0x78cb03d400_0;
+    %addi 1, 0, 32;
+    %mul;
+    %load/vec4 v0x78cb03d400_0;
+    %muli 32, 0, 32;
+    %ix/vec4/s 4;
+    %store/vec4 v0x78cb03d680_0, 4, 32;
+    %ix/getv/s 4, v0x78cb03d400_0;
+    %load/vec4a v0x78cb03d2c0, 4;
+    %load/vec4 v0x78cb03d5e0_0;
+    %addi 1, 0, 32;
+    %load/vec4 v0x78cb03d400_0;
+    %addi 1, 0, 32;
+    %mul;
+    %add;
+    %ix/getv/s 4, v0x78cb03d400_0;
+    %store/vec4a v0x78cb03d2c0, 4, 0;
+T_2.10 ; for-loop step statement
+    %load/vec4 v0x78cb03d400_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+    %jmp T_2.8;
+T_2.9 ; for-loop exit label
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x78cb03d720_0, 0, 1;
+    %wait E_0x78cb044000;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x78cb03d720_0, 0, 1;
+    %load/vec4 v0x78cb03d5e0_0;
+    %addi 1, 0, 32;
+    %pushi/vec4 50, 0, 32;
+    %mod/s;
+    %cmpi/e 0, 0, 32;
+    %jmp/0xz  T_2.11, 4;
+    %load/vec4 v0x78cb03d5e0_0;
+    %addi 1, 0, 32;
+    %vpi_call/w 3 79 "$display", "[INFO] Processed %0d / %0d tiles", S<0,vec4,s32>, P_0x104c1a4b0 {1 0 0};
+T_2.11 ;
+T_2.7 ; for-loop step statement
+    %load/vec4 v0x78cb03d5e0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d5e0_0, 0, 32;
+    %jmp T_2.5;
+T_2.6 ; for-loop exit label
+    %load/vec4 v0x78cb03d220_0;
+    %cmpi/ne 1, 0, 1;
+    %jmp/0xz  T_2.13, 6;
+    %vpi_call/w 3 85 "$display", "[FAIL] Done was not asserted after final tile" {0 0 0};
+    %load/vec4 v0x78cb03d360_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d360_0, 0, 32;
+    %jmp T_2.14;
+T_2.13 ;
+    %vpi_call/w 3 88 "$display", "[PASS] Done asserted after all 196 tiles" {0 0 0};
+    %load/vec4 v0x78cb03d4a0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d4a0_0, 0, 32;
+T_2.14 ;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+T_2.15 ; Top of for-loop
+    %load/vec4 v0x78cb03d400_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_2.16, 5;
+    %load/vec4 v0x78cb03d040_0;
+    %load/vec4 v0x78cb03d400_0;
+    %muli 32, 0, 32;
+    %part/s 32;
+    %ix/getv/s 4, v0x78cb03d400_0;
+    %load/vec4a v0x78cb03d2c0, 4;
+    %cmp/ne;
+    %jmp/0xz  T_2.18, 6;
+    %load/vec4 v0x78cb03d040_0;
+    %load/vec4 v0x78cb03d400_0;
+    %muli 32, 0, 32;
+    %part/s 32;
+    %vpi_call/w 3 97 "$display", "[FAIL] Output %0d: expected %0d, got %0d", v0x78cb03d400_0, &A<v0x78cb03d2c0, v0x78cb03d400_0 >, S<0,vec4,s32> {1 0 0};
+    %load/vec4 v0x78cb03d360_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d360_0, 0, 32;
+    %jmp T_2.19;
+T_2.18 ;
+    %load/vec4 v0x78cb03d4a0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d4a0_0, 0, 32;
+T_2.19 ;
+T_2.17 ; for-loop step statement
+    %load/vec4 v0x78cb03d400_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x78cb03d400_0, 0, 32;
+    %jmp T_2.15;
+T_2.16 ; for-loop exit label
+    %vpi_call/w 3 107 "$display", "\012===== TEST RESULTS =====" {0 0 0};
+    %vpi_call/w 3 108 "$display", "Checks passed: %0d", v0x78cb03d4a0_0 {0 0 0};
+    %vpi_call/w 3 109 "$display", "Checks failed: %0d", v0x78cb03d360_0 {0 0 0};
+    %load/vec4 v0x78cb03d360_0;
+    %cmpi/e 0, 0, 32;
+    %jmp/0xz  T_2.20, 4;
+    %vpi_call/w 3 112 "$display", "[PASS] FC1 ACCUMULATOR VERIFIED" {0 0 0};
+    %jmp T_2.21;
+T_2.20 ;
+    %vpi_call/w 3 114 "$display", "[FAIL] ACCUMULATOR VERIFICATION FAILED" {0 0 0};
+T_2.21 ;
+    %vpi_call/w 3 116 "$finish" {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "-";
+    "testbench/tb_fc1_tile_accumulator.v";
+    "src/rtl/fc1_tile_accumulator.v";

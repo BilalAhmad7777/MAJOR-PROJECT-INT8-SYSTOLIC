@@ -1,0 +1,26 @@
+INT8 Systolic Array AI Accelerator
+Generic RTL Synthesis Report
+
+Tool: Yosys 0.70+post
+Top module: accelerator_top
+
+Total generic logic cells: 27412
+Matrix engine cells: 15988
+SDFFE sequential cells: 1283
+SDFF sequential cells: 1
+DFF cells: 4
+
+Hierarchy:
+- accelerator_top
+- 1 weight_stationary_array_4x4_fsm
+- 16 ReLU instances
+- 16 requantization instances
+
+Synthesis completed successfully.
+Warnings:
+- Three RTL memories converted into registers.
+- ABC reported combinational optimization-network warnings.
+
+Note:
+These are generic synthesis statistics, not Sky130
+standard-cell area, power, or timing measurements.

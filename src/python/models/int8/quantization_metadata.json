@@ -1,0 +1,18 @@
+{
+    "architecture": "784-32-10",
+    "quantization": "symmetric_signed_int8",
+    "input_scale": 0.02221643079922894,
+    "fc1_weight_scale": 0.00311386233239662,
+    "fc2_weight_scale": 0.004544627009414312,
+    "hidden_activation_scale": 0.23253840348851962,
+    "fc1_weight_shape": [
+        32,
+        784
+    ],
+    "fc2_weight_shape": [
+        10,
+        32
+    ],
+    "bias_format": "float32_source_with_separate_int32_hardware_export",
+    "hardware_note": "RTL supports INT32 bias addition and tiled full-layer accumulation."
+}

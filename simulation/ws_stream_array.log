@@ -1,0 +1,11 @@
+==========================================
+  STREAMING 4x4 ARRAY TEST (12 tiles x 8 vectors)
+==========================================
+INFO: input-to-output latency = 8 clock edges (constant)
+INFO: PE multiply-accumulates counted = 1536 (expected 1536)
+INFO: peak simultaneous active PEs   = 16
+------------------------------------------
+ARRAY CHECKS: 384   FAIL: 0
+RESULT: PASS
+------------------------------------------
+testbench/tb_systolic_array_ws_4x4.v:151: $finish called at 1560000 (1ps)

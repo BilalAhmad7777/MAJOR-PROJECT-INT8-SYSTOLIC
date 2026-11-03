@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Simulation build outputs
+*.vvp
+*.vcd
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Downloaded MNIST dataset (not required for V2 regression)
+data/MNIST/
+
+# Local reference repositories (separate projects)
+reference-asic/
+reference-fpga/
+
+# Local environment
+.env
+.env.*
+!.env.example

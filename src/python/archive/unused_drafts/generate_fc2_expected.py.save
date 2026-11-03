@@ -1,0 +1,51 @@
+import numpy as np
+from pathlib import Path
+
+ROOT = Path("src/python/models/int8")
+OUT = Path("verification/test_vectors/fc2_hardware")
+FC1_OUT = Path("verification/test_vectors/fc1_hardware")
+
+OUT.mkdir(parents=True, exist_ok=True)
+
+# Load FC1 expected INT8 outputs
+
+# Load FC2 parameters
+weights = np.load(ROOT / "fc2_weights_int8.npy").astype(np.int64)
+biases = np.load(ROOT / "fc2_bias_int32.npy").astype(np.int64)
+
+# Calculate FC2 INT32 logits
+logits = hidden.astype(np.int64) @ weights.T + biases.reshape(1, 10)
+
+predictions = np.argmax(logits, axis=1)
+
+# Save hidden activations as signed INT8 hex
+with open(OUT / "fc2_hidden_int8.hex", "w") as f:
+    for value in hidden.reshape(-1):
+        f.write(f"{int(value) & 0xFF:02x}\n")
+
+# Save weights as signed INT8 hex
+with open(OUT / "fc2_weights_int8.hex", "w") as f:
+    for value in weights.reshape(-1):
+        f.write(f"{int(value) & 0xFF:02x}\n")
+
+# Save biases as signed INT32 two's-complement hex
+with open(OUT / "fc2_bias_int32.hex", "w") as f:
+    for value in biases:
+        f.write(f"{int(value) & 0xFFFFFFFF:08x}\n")
+
+# Save expected logits as signed INT32 two's-complement hex
+with open(OUT / "fc2_expected_logits_int32.hex", "w") as f:
+    for value in logits.reshape(-1):
+        f.write(f"{int(value) & 0xFFFFFFFF:08x}\n")
+
+print("===== FC2 GOLDEN MODEL =====")
+print("Hidden shape:", hidden.shape)
+print("Weight shape:", weights.shape)
+print("Bias shape:", biases.shape)
+print("Logit shape:", logits.shape)
+print("\nPredictions:", predictions)
+print("\nExpected logits:")
+for i, row in enumerate(logits):
+    print(f"Image {i}: {row.tolist()} | Prediction: {predictions[i]}")
+
+print("\nFiles saved in:", OUT)

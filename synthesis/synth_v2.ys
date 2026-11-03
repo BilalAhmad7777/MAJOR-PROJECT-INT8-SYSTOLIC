@@ -1,0 +1,15 @@
+# Generic Yosys synthesis of the v2 accelerator.  Run from the project root:
+#   yosys -l synthesis/logs/synth_v2.log synthesis/synth_v2.ys
+read_verilog -sv src/rtl/ws_pe_stream.v
+read_verilog -sv src/rtl/systolic_array_ws_4x4.v
+read_verilog -sv src/rtl/fc1_postprocess.v
+read_verilog -sv src/rtl/mnist_accel_v2_top.v
+hierarchy -check -top mnist_accel_v2_top
+proc; flatten; opt
+memory; opt
+techmap; opt
+abc -g AND,NAND,OR,NOR,XOR,XNOR,ANDNOT,ORNOT,MUX
+opt_clean
+check
+stat
+write_verilog -noattr synthesis/results/mnist_accel_v2_synth.v

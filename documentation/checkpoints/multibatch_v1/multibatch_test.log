@@ -1,0 +1,107 @@
+==========================================
+    MNIST ACCELERATOR TOP-LEVEL TEST
+==========================================
+
+========== INFERENCE BATCH 1 ==========
+
+[TOP] Accelerator started
+
+[FC1] Sending group 0
+[FC1] Group 0 tiles submitted
+
+[FC1] Sending group 1
+[FC1] Group 1 tiles submitted
+
+[FC1] Sending group 2
+[FC1] Group 2 tiles submitted
+
+[FC1] Sending group 3
+[FC1] Group 3 tiles submitted
+
+[FC1] Sending group 4
+[FC1] Group 4 tiles submitted
+
+[FC1] Sending group 5
+[FC1] Group 5 tiles submitted
+
+[FC1] Sending group 6
+[FC1] Group 6 tiles submitted
+
+[FC1] Sending group 7
+[FC1] Group 7 tiles submitted
+
+[TOP] All 1568 FC1 tiles submitted
+[TOP] Waiting for FC1 and FC2 completion...
+
+[PASS] Top-level accelerator asserted done
+
+===== FINAL LOGIT COMPARISON =====
+
+===== IMAGE 0 =====
+[PASS] Predicted digit: 7
+
+===== IMAGE 1 =====
+[PASS] Predicted digit: 2
+
+===== IMAGE 2 =====
+[PASS] Predicted digit: 1
+
+===== IMAGE 3 =====
+[PASS] Predicted digit: 0
+
+========== INFERENCE BATCH 2 ==========
+
+[TOP] Accelerator started
+
+[FC1] Sending group 0
+[FC1] Group 0 tiles submitted
+
+[FC1] Sending group 1
+[FC1] Group 1 tiles submitted
+
+[FC1] Sending group 2
+[FC1] Group 2 tiles submitted
+
+[FC1] Sending group 3
+[FC1] Group 3 tiles submitted
+
+[FC1] Sending group 4
+[FC1] Group 4 tiles submitted
+
+[FC1] Sending group 5
+[FC1] Group 5 tiles submitted
+
+[FC1] Sending group 6
+[FC1] Group 6 tiles submitted
+
+[FC1] Sending group 7
+[FC1] Group 7 tiles submitted
+
+[TOP] All 1568 FC1 tiles submitted
+[TOP] Waiting for FC1 and FC2 completion...
+
+[PASS] Top-level accelerator asserted done
+
+===== FINAL LOGIT COMPARISON =====
+
+===== IMAGE 0 =====
+[PASS] Predicted digit: 7
+
+===== IMAGE 1 =====
+[PASS] Predicted digit: 2
+
+===== IMAGE 2 =====
+[PASS] Predicted digit: 1
+
+===== IMAGE 3 =====
+[PASS] Predicted digit: 0
+
+==========================================
+       TOP-LEVEL TEST RESULTS
+==========================================
+Passed: 90
+Failed: 0
+Expected checks: 90
+
+[PASS] MNIST ACCELERATOR TOP VERIFIED
+testbench/tb_mnist_accelerator_top_multibatch.v:445: $finish called at 497030000 (1ps)

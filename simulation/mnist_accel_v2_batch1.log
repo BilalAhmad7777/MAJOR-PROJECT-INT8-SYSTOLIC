@@ -1,0 +1,17 @@
+WARNING: src/rtl/mnist_accel_v2_top.v:71: $readmemh(rom/fc2_weights_tiles.hex): Not enough words in the file for the requested range [0:31].
+==========================================
+  MNIST ACCELERATOR v2 (streaming array)
+  1 batches x 8 images
+==========================================
+... batch 0 done, 13015 cycles
+------------------------------------------
+images tested          : 8
+correct vs MNIST labels: 8 / 8
+cycles per batch (8 img): 13015  -> 1626 cycles/image
+PE MAC operations/batch : 203776 (expected 203776)
+average MACs per cycle  : 15.66 of 16 (peak seen: 16)
+------------------------------------------
+PASS: 89   FAIL: 0
+RESULT: PASS (bit-exact vs Python golden model)
+------------------------------------------
+testbench/tb_mnist_accel_v2.v:161: $finish called at 191710000 (1ps)
